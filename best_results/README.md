@@ -57,7 +57,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | **Multiplier** | **128** |**128** |**6514** |**27**| **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  Sine  |  24  | 25  | 487941  | 12 | L.  Amaru et al. |Exact Delay Synthesis|
 |  Square-root  |  128  | 64  | 27265  | 241 |  L.  Amaru et al. |Exact Delay Synthesis | 
-|  Square  |  64  | 128  | 3964  | 11 | I. Lemberski, A. Suponenkovs |Resubstitution | 
+|  **Square**  |  **64**  |**128**  | **3964**  |**11** |**I. Lemberski, A. Suponenkovs** |**Resubstitution** | 
 
 **Random-Control Benchmarks**
 

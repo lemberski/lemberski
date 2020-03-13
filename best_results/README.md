@@ -1,4 +1,4 @@
-# Best LUT-6 Implementations - 2019
+# Best LUT-6 Implementations - 2020
 The best LUT-6 implementations keep track of the best results of LUT-6 mapped benchmarks, both for size (# of LUTs) and depth (# of levels). 
 
 ### Best results for LUT-6 count

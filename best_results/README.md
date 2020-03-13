@@ -50,7 +50,7 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | **Adder** | **256**  | **129**  | **459**  | **5** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
-| Divisor  | 128 |128  |26855 | 228 |I. Lemberski, A. Suponenkovs |Resubstitution |
+| **Divisor  | 128 |128  |26855 | 228 |I. Lemberski, A. Suponenkovs |Resubstitution** |
 | Hypotenuse | 256 |128  | 151442 |567 | L.  Amaru et al. |Exact Delay Synthesis |
 |  Log2  |  32  | 32  | 9202 | 55  |  I. Lemberski, A. Suponenkovs |Resubstitution |
 |  **Max** |  **512**  | **130**  | **855** | **10** |  **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |

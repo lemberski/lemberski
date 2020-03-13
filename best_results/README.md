@@ -11,23 +11,23 @@ The best LUT-6 implementations keep track of the best results of LUT-6 mapped be
 | Barrel shifter  | 135 |128  | 512  |4  | R. K. Brayton & A. Mishchenko|ABC Extreme Mapper|
 | **Divisor**  | **128** | **128**   | **3267**   |  **1211**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
 |  **Hypotenuse**  |  **256**  | **128**   | **40377**   | **4530**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Log2**  |  **32**  | **32**  | **6567** | **119**  | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
+|  **Log2**  |  **32**  | **32**  | **6557** | **121**  | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  **Max**  |  **512**  | **130**  | **522**  | **189** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Multiplier**  |  **128**  | **128**  | **4919**  | **90** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Sine**  |  **24**  | **25**  | **1227**  | **55** | **E. Testa, L. Amaru et al.** |  **Boolean Methods** |
-|  **Square-root**  |  **128**  | **64**  | **3074**  | **1101** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Multiplier**  |  **128**  | **128**  | **4915**  | **89** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
+|  **Sine**  |  **24**  | **25**  | **1221**  | **54** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
+|  **Square-root**  |  **128**  | **64**  | **3031**  | **1101** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  **Square**  |  **64**  | **128**  | **3240**  | **76** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 
 **Random-Control Benchmarks**
 
 | Benchmark name | Inputs | Outputs | LUT-6 count | Levels | Authors | Method |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-|  **Round-robin arbiter**  |  **256**   |  **129**   |  **328**   |  **98** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Round-robin arbiter**  |  **256**   |  **129**   |  **313**   |  **98** | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  Alu control unit   |  7  | 26   | 27   | 2  | Gai Liu & Zhiru Zhang |  PIMap |
 |  **Coding-cavlc**    |  **10**  | **11**   | **68**   | **3**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Decoder**  | **8**  | **256**   | **264**   | **2**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **I2c controller**  |  **147**  | **142**  | **200** | **10**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
-|  **Int to float converter**  |  **11**  | **7**  | **26**  | **4**  | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
+|  **Int to float converter**  |  **11**  | **7**  | **24**  | **4**  | **I. Lemberski, A. Suponenkovs** |  **Resubstitution** |
 |  **Memory controller**  |  **1204**  | **1231**  | **2041**  | **22** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Priority encoder**  |  **128**  | **8**  | **102** | **26** | **L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
 |  **Lookahead XY router** | **60** |**30** |**50** | **5**|**L. Machado and J. Cortadella** |  **Support-Reducing Decomp** |
